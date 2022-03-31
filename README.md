@@ -1,2 +1,2 @@
 # DataStructure
-This repo contains data structures 
+This is Data Strcuture stuff
