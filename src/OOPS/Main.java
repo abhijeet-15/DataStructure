@@ -7,6 +7,7 @@ public class Main {
        // student.name = "Shiva";
 
         System.out.println(student.name);
+        System.out.println("Printing the object directly..." + student);
 
         final Student student1 = new Student();
         student1.name = "allowed";
@@ -16,10 +17,15 @@ public class Main {
 
         for(int i = 0; i < 100000; i++)
             student2= new Student();
-
-
-
     }
+
+
+//    @Override
+//    public String toString(Student student){
+//        System.out.println("overiding toString");
+//        System.out.println(student.name);
+//        return " ";
+//    }
 
 //    @Override
 //    protected void finalize () throws Throwable{
@@ -35,7 +41,17 @@ public class Main {
        int roll;
        float marks;
        static String surname = "Singh";
+
+       @Override
+        public String toString(){
+           return name;
+       }
+
     }
+
+
+
+
 
 
 
