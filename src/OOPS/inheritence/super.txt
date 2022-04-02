@@ -1,0 +1,4 @@
+Super keyboard:
+When subclass needs o refer to super class from it is defined, super is used.
+Used to class constructor of super class
+can be used as this keyword, but it will only be used to reference/access the supreclass keywords/properties etc
