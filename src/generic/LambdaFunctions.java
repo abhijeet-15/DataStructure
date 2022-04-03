@@ -15,7 +15,7 @@ public class LambdaFunctions {
         // same thing using consumer
         Consumer<Integer> fun = (item)-> System.out.println(item);
         list.forEach(fun);
-        
+
         // another way to write the same
         Operation su1m = Integer::sum;
 
